@@ -1,0 +1,13 @@
+# Ignorar las carpetas de datos y modelos, ya que son grandes.
+# El modelo será descargado de forma manual.
+data/
+models/
+
+# Ignorar archivos temporales, de caché y el entorno virtual.
+__pycache__/
+*.pyc
+.env
+venv/
+
+# Archivos específicos de macOS.
+.DS_Store

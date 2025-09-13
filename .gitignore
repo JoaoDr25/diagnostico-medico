@@ -1,0 +1,26 @@
+# Archivos y carpetas para ignorar en este proyecto
+
+# --- Datos ---
+# No subir archivos de datos grandes, ya que pueden ser regenerados.
+data/
+*.npz
+*.csv
+
+# --- Modelos entrenados ---
+# Los modelos entrenados también son archivos binarios grandes.
+# El código para entrenarlos es lo que importa.
+models/
+
+# --- Entorno y archivos de Python ---
+# Carpetas y archivos generados automáticamente.
+__pycache__/
+*.pyc
+*.pyo
+
+# --- Archivos específicos del sistema operativo ---
+# Archivos de macOS
+.DS_Store
+
+# --- Archivos de registro y depuración ---
+*.log
+*.tmp
