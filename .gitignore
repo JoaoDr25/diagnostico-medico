@@ -2,7 +2,6 @@
 
 # --- Datos ---
 # No subir archivos de datos grandes, ya que pueden ser regenerados.
-data/
 *.npz
 *.csv
 
