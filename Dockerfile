@@ -25,3 +25,11 @@ EXPOSE 8501
 
 # Comando para ejecutar la aplicación cuando se inicie el contenedor.
 CMD ["streamlit", "run", "src/app.py"]
+
+
+
+#Reconstruye la imagen de Docker con el comando.
+#docker build -t diagnostico-neumonia .
+
+#Ejecuta el contenedor.
+#docker run -p 8501:8501 diagnostico-neumonia
